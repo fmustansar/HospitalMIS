@@ -1,11 +1,26 @@
-﻿<h1>Hi {{vm.user.firstName}}!</h1>
-<p>You're logged in!!</p>
-<h3>All registered users:</h3>
-<ul>
-    <li ng-repeat="user in vm.allUsers">
-        {{user.username}} ({{user.firstName}} {{user.lastName}})
-        - <a ng-click="vm.deleteUser(user.id)">Delete</a>
-    </li>
-</ul>
-<p>&nbsp;</p>
-<p><a href="#!/login" class="btn btn-primary">Logout</a></p>
+﻿<div class="limiter">
+    <div class="container-login100" style="background-image: url('generic/images/bg-04.jpg');">
+        <div class="" style="background-image: url('generic/images/bg-04.jpg');">
+
+                <div style="background-color: #004085">
+                    <div style="margin: 10px; padding: 10px">
+                    <h1>Hi {{vm.user.firstName}}!</h1>
+
+                    <p>You're logged in!!</p>
+
+                    <h3>All registered users:</h3>
+                    <ul>
+                        <li ng-repeat="user in vm.allUsers">
+                            {{user.username}} ({{user.firstName}} {{user.lastName}})
+                            - <a ng-click="vm.deleteUser(user.id)">Delete</a>
+                        </li>
+                    </ul>
+                    <p>&nbsp;</p>
+
+                    <p><a href="#!/login" class="btn btn-primary">Logout</a></p>
+                        </div>
+                </div>
+
+        </div>
+    </div>
+</div>

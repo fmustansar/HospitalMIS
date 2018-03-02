@@ -1,4 +1,4 @@
-# `xyz hospital` —
+# `Hospital MIS` —
 
 A hospital wants to manage their patients and has chosen us to create a patient management functionality.
 
@@ -12,3 +12,6 @@ How to run the application:
 Just check out the code of this repo and perform the following step(s).
 
 1- Bower install
+2- Run http-server through npm in the main directory of this application
+    (https://www.npmjs.com/package/http-server)
+3- access http://192.168.50.55:8080/ in most cases but please try to use the ip and port that http-server is referring.
